@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SSM_Demo:war exploded">
     <output-path>$PROJECT_DIR$/target/Demo</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>SSM_Demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -40,7 +47,7 @@
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.6.2" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.6.2" />
-          <element id="library" level="project" name="Maven: org.jetbrains:annotations-java5:15.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations-java5:18.0.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.3.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.3" />
         </element>
